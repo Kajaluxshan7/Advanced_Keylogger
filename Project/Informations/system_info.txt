@@ -1,0 +1,16 @@
+
+Public Ip Address: 103.21.165.251
+Processor: Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+System Information: Windows 10.0.22621
+Machine: AMD64
+Hostname: BlackPearl
+Public Ip Address: 103.21.165.251
+Processor: Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+System Information: Windows 10.0.22621
+Machine: AMD64
+Hostname: BlackPearl
+Public Ip Address: 103.21.165.251
+Processor: Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+System Information: Windows 10.0.22621
+Machine: AMD64
+Hostname: BlackPearl
